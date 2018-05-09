@@ -12,6 +12,8 @@ function mostrarNome(){
     return $nome;
 }
 
+$dataAtual = date("d");
+
 $resultado = somarNumero(10, 20);
 
 $resposta = mostrarNome();
@@ -19,5 +21,7 @@ $resposta = mostrarNome();
 echo "Resultado vai ser: ".$resultado;
 
 echo "Meu nome é: ".$resposta;
+
+echo "Data atual:".$dataAtual;
 
 ?>
