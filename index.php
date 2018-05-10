@@ -18,6 +18,8 @@ $resultado = somarNumero(10, 20);
 
 $resposta = mostrarNome();
 
+$x = time();
+
 echo "Resultado vai ser: ".$resultado;
 
 echo "</br>";
@@ -29,5 +31,7 @@ echo "</br>";
 echo "Data atual:".$dataAtual;
 
 echo "</br>";
+
+echo $x;
 
 ?>
