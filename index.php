@@ -12,7 +12,7 @@ function mostrarNome(){
     return $nome;
 }
 
-$dataAtual = date("d");
+$dataAtual = date("d - D - : d/m/Y");
 
 $resultado = somarNumero(10, 20);
 
