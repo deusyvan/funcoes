@@ -20,8 +20,14 @@ $resposta = mostrarNome();
 
 echo "Resultado vai ser: ".$resultado;
 
+echo "</br>";
+
 echo "Meu nome é: ".$resposta;
 
+echo "</br>";
+
 echo "Data atual:".$dataAtual;
+
+echo "</br>";
 
 ?>
