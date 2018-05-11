@@ -137,11 +137,72 @@ echo ucfirst("deusyvan ferreira silva");
 echo "</br>";
 echo ucwords("deusyvan ferreira da silva");
 
+//Manipulação de Arrays
+echo "</br> Arrays";
+echo "</br>";
+$lista = array(
+    "nome" => "Deusyvan",
+    "idade" => 45,
+    "cidade" => "Planaltina - DF",
+    "pais" => "Brasil"
+);
 
+$lista4 = array(
+    "nome" => "Deusyvan",
+    "idade" => 45,
+    "cidade" => "Planaltina - DF",
+    "pais" => "Brasil"
+);
 
+$lista2 = array_keys($lista);
+print_r($lista2);
+echo "</br>";
+$lista3 = array_values($lista);
+print_r($lista3);
+echo "</br>";
+array_pop($lista);
+print_r($lista);
+echo "</br>";
+array_shift($lista);
+print_r($lista);
+echo "</br>";
+asort($lista4);
+print_r($lista4);
+echo "</br>";
+arsort($lista4);
+print_r($lista4);
+echo "</br>";
+echo "Total de Dados: ".count($lista4);
 
-
-
-
-
+$lista4 = array(
+    "Deusyvan",
+    "Maria",
+    "Antonia",
+    "Mauro",
+    "Cida"
+);
+echo "</br>";
+if(in_array("Deusyvan", $lista4)){
+    echo "Vencedor foi Deusyvan";
+}
+echo "</br>";
+if(in_array("José", $lista4)){
+    echo "Vencedor foi Deusyvan";
+} else {
+    echo "José não está listado";
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 ?>
